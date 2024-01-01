@@ -26,5 +26,5 @@ int main(void)
 		largest = c;
 	}
 
-	return (largest);
+	return (0);
 }
