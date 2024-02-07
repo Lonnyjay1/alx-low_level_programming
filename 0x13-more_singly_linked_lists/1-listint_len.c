@@ -9,7 +9,7 @@
 size_t listint_len(const listint_t *h);
 {
 
-	size_t num_count = 0;
+	size_t num_count;
 
 	for (num_count = 0; h; num_count++)
 		h = h->next;
